@@ -23,7 +23,7 @@ You can insert a few rows in both the tables. Insert first in the `todolists` re
 
 
 ## C. Steps to Run the App: 
-* `python3 -m venv env` set the virtual environment for Pyhton 
+* `python3 -m venv env` set the virtual environment for Python 
 * `source env/bin/activate` activate the venv
 * `python -m pip install -r requirements.txt` to install dependencies. For Mac users, if you face difficulty in installing the `psycopg2`, you may consider intalling the `sudo brew install libpq` before running the `requirement.txt`. 
 * `python3 app.py` to run the app (http://127.0.0.1:5000/ or http://localhost:5000)
